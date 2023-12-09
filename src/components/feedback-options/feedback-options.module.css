@@ -1,0 +1,46 @@
+.btn-list {
+  display: flex;
+  justify-content: center;
+}
+
+.feedback-btn {
+  padding: 10px;
+  width: 100px;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: black;
+}
+
+.feedback-btn:not(:last-child) {
+    margin-right: 20px;
+}
+
+.feedback-btn:nth-child(1) {
+  color: green;
+}
+
+.feedback-btn:nth-child(2) {
+  color: yellow;
+}
+
+.feedback-btn:nth-child(3) {
+  color: red;
+}
+
+.feedback-btn:hover {
+    color: white;
+  }
+
+.feedback-btn:nth-child(1):hover {
+  background-color: green;
+}
+
+.feedback-btn:nth-child(2):hover {
+  background-color: yellow;
+}
+
+.feedback-btn:nth-child(3):hover {
+  background-color: red;
+}
+
+
